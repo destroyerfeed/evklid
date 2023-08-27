@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архітектурна Майстерня</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon" href="/img//favicon.png">
+</head>
+
+<body>
+    <div>
+        <header class="header">
+            <div class="header__wrapper">
+                <button class="btn-reset burger"> 
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+                <a class="header__logo"><img src="img/nav-logo.svg" class="header__logo-img"></a>
+
+                <nav class="header__nav nav">
+                    <ul class="list-reset nav__list">
+                        <li class="nav__item"><a href="#about-us" class="link">Про нас</a></li>
+                        <li class="nav__item"><a href="#projects" class="link">Проекти</a></li>
+                        <li class="nav__item"><a href="#how" class="link">Етапи</a></li>
+                        <li class="nav__item"><a href="#faq" class="link">Відгуки</a></li>
+                        <li class="nav__item"><a href="#contacts" class="link">Контакти</a></li>
+
+                    </ul>
+                </nav>
+
+
+                <a href="" class="nav-search">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="transparent"/>
+                        <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="transparent" stroke-width="2"/>
+                        </svg>
+
+                </a>
+            </div>
+        </header>
+        <main class="main">
+            <section class="project-slides" id="projects">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <h2 class="hero-title">Проекти та інтер'єри любої складності</h2>
+                        <p class="hero-descr">Відкрийте двері до безмежного світу креативності та майстерності. Досвідчена команда реалізує найвитонченіші архітектурні та інтер'єрні рішення.</p><button class="btn btn-reset hero-btn">Зв'язатися з нами</button>
+
+                        <div class="hero-swiper">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/hero-pic-320-1.png" media="(max-width: 320px)">
+                                            <source srcset="img/hero-pic-768-1.png" media="(max-width: 768px)">
+                                            <source srcset="img/hero-pic-1024-1.png" media="(max-width: 1130px)">
+
+                                            <img class="swiper-img" src="img/hero-pic-1920-1.png" alt=""></picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/hero-pic-320-2.png" media="(max-width: 320px)">
+                                            <source srcset="img/hero-pic-768-2.png" media="(max-width: 768px)">
+                                            <source srcset="img/hero-pic-1024-2.png" media="(max-width: 1130px)">
+
+                                            <img class="swiper-img" src="img/hero-pic-1920-2.png" alt=""></picture>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <picture>
+                                            <source srcset="img/hero-pic-320-3.png" media="(max-width: 320px)">
+                                            <source srcset="img/hero-pic-768-3.png" media="(max-width: 768px)">
+                                            <source srcset="img/hero-pic-1024-3.png" media="(max-width: 1130px)">
+
+                                            <img class="swiper-img" src="img/hero-pic-1920-3.png" alt=""></picture>
+                                    </div>
+
+                                    ...
+                                </div>
+                                <div class="swiper-pagination"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us" id="about-us">
+                <div class="container">
+                    <div class="about-us__text">
+                        <h2 class="section-title about-us__title ">Про нас</h2>
+                        <p class="about-us-descr">Ми - архітектурна компанія, що пропонує інноваційні та вишукані рішення для створення неперевершених архітектурних проектів. Наша команда досвідчених професіоналів володіє багаторічним досвідом у сфері дизайну та будівництва, завжди
+                            прагне досягти виняткової якості та задовольнення потреб клієнтів. Ми працюємо з уважністю до деталей, креативністю та унікальним підходом до кожного проекту. Наша мета - перетворити ідеї на реальність, створюючи простори,
+                            які вражають своєю красою, функціональністю та гармонією. Довірте нам свої проекти, і ми з радістю зробимо кожен з них незабутнім та неперевершеним.</p>
+                    </div>
+
+                    <div class="about-services">
+                        <article class="about-services-left services-left">
+
+                            <div class="block__picture">
+                                <picture>
+                                    <source media="(max-width:320px)" srcset="img/about-us-pic-320.png">
+                                    <source media="(max-width:768px)" srcset="img/about-us-pic-768.png">
+                                    <source media="(max-width:1130px)" srcset="img/about-us-pic-1024.png">
+
+                                    <img src="img/about-us-pic.jpg" alt="">
+                                </picture>
+
+                                <div class="block__caption">
+                                    <div class="block__name">
+                                        <h2 class="block__heading ">
+                                            Зважаючи на показники успішності, перспективне планування сприяє підготовці та реалізації нових принципів.
+                                        </h2>
+                                        <button class="btn-reset btn about-us__btn">
+                                                        Детальніше
+                                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </article>
+
+                        <div class="about-right">
+                            <div class="about-right-block">
+                                <img class="about-right-img" src="img/about-cube.png" alt="">
+                                <div>
+                                    <h3 class="about-right-header">Консультація з широким активом</h3>
+                                    <p class="about-right-descr">А також свіжий погляд на звичні речі безумовно відкриває нові горизонти для самодостатніх, так і зовні залежних концептуальних рішень.</p>
+                                </div>
+                            </div>
+
+                            <div class="about-right-block">
+                                <img class="about-right-img" src="img/about-gear.png" alt="">
+                                <div>
+                                    <h3 class="about-right-header">У своєму прагненні покращити</h3>
+                                    <p class="about-right-descr"> Ми ніколи не зупиняємося на досягнутому і завжди прагнемо до вищого. Наша компанія присвячена забезпеченню найвищої якості і найінноваційніших рішень в архітектурі. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+            <section class="how" id="how">
+                <div class="container">
+                    <h2 class="section-title how__title">Як ми працюємо</h2>
+                    <div class="tab-wrapper">
+                        <div class="tab-btn-wrapper">
+                            <button class="btn-reset tab-btn tab-active" data-id="step-1">1 крок</button>
+                            <button class="btn-reset tab-btn" data-id="step-2">2 крок</button>
+                            <button class="btn-reset tab-btn" data-id="step-3">3 крок</button>
+                            <button class="btn-reset tab-btn" data-id="step-4">4 крок</button>
+                        </div>
+                        <div class="tab-content-wrapper">
+                            <div class="tab-content tab-active" id="step-1">
+                                <div class="tab-item">
+                                    <div class="tab-left">
+                                        <h4 class="tab-title">Проводим консультацію</h4>
+                                        <p class="tab-descr">
+                                            Першим кроком є консультація з клієнтом, де архітектори ретельно вивчають потреби клієнта, бажання та очікування щодо проекту. В цьому етапі проводиться збір вимог, обговорення бюджету та термінів, а також ознайомлення з контекстом і місцем, де буде знаходитись
+                                            проект.
+                                            <br> Ми уважно слухаємо клієнта, вивчаємо його стиль життя, пріоритети та очікування, щоб зрозуміти, як найкращим чином задовольнити його потреби через архітектурний проект. Це включає обговорення бюджету, термінів,
+                                            стилістичних уподобань, функціональних потреб і будь-яких специфічних вимог, які клієнт має до проекту.</p>
+
+                                        <div class="process-buttons">
+                                            <button class="btn-reset btn tab-extra-btn">Детальніше</button>
+                                            <button class="btn-reset btn tab-extra-btn">Договір</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-img">
+                                        <picture>
+                                            <source srcset="img/how-pic-320-1.png" media="(max-width: 320px)">
+                                            <source srcset="img/how-pic-768-1.png" media="(max-width: 768px)">
+                                            <source srcset="img/how-pic-1024-1.png" media="(max-width: 1024px)">
+                                            <img src="img/how-1920-1.png" alt="">
+                                        </picture>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="step-2">
+                                <div class="tab-item">
+                                    <div class="tab-left">
+                                        <h4 class="tab-title">Концептуальний дизайн</h4>
+                                        <p class="tab-descr">
+                                            На цьому етапі архітектори компанії працюють над створенням концепції проекту, враховуючи вимоги та бажання клієнта. Це включає розробку планування приміщень, просторових відношень, матеріалів, кольорів та інших дизайнерських елементів, які відображатимуть
+                                            концепцію проекту.В цьому етапі створюються скетчі, макети або 3D-візуалізації, щоб продемонструвати клієнту передбачуваний результат. Наша мета полягає в тому, щоб захопити вашу уяву та створити вам відчуття,
+                                            що ваш проект стає реальністю.
+                                        </p>
+                                        <div class="process-buttons">
+                                            <button class="btn-reset btn tab-extra-btn">Детальніше</button>
+                                            <button class="btn-reset btn tab-extra-btn">Договір</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-img">
+                                        <picture>
+                                            <source srcset="img/how-pic-320-2.png" media="(max-width: 320px)">
+                                            <source srcset="img/how-pic-768-2.png" media="(max-width: 768px)">
+                                            <source srcset="img/how-pic-1024-2.png" media="(max-width: 1024px)">
+                                            <img src="img/how-1920-2.png" alt="">
+                                        </picture>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="step-3">
+                                <div class="tab-item">
+                                    <div class="tab-left">
+                                        <h4 class="tab-title">Детальне проектування</h4>
+                                        <p class="tab-descr">
+                                            Після схвалення концепції, архітектори переходять до детального проектування. Вони працюють над всіма деталями вашого проекту, враховуючи архітектурні та конструктивні аспекти. Наші архітектори вивчають простір, функціональність та ергономіку, щоб забезпечити
+                                            оптимальне використання кожного приміщення. В цьому етапі також береться до уваги деталізація матеріалів та фінішних робіт, щоб створити неповторну атмосферу, яка відповідає вашому стилю та пріоритетам. <br>                                            Важливою частиною детального проектування є контроль якості та нагляд. Ми забезпечуємо, щоб всі етапи проекту були відповідні вимогам і стандартам.
+
+
+                                        </p>
+                                        <div class="process-buttons">
+                                            <button class="btn-reset btn tab-extra-btn">Детальніше</button>
+                                            <button class="btn-reset btn tab-extra-btn">Договір</button>
+                                        </div>
+                                    </div>
+                                    <div class="tab-img">
+
+                                        <picture>
+                                            <source srcset="img/how-pic-320-3.png" media="(max-width: 320px)">
+                                            <source srcset="img/how-pic-768-3.png" media="(max-width: 768px)">
+                                            <source srcset="img/how-pic-1024-3.png" media="(max-width: 1024px)">
+                                            <img src="img/how-1920-3.png" alt="">
+                                        </picture>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="step-4">
+                                <div class="tab-item">
+                                    <div class="tab-left">
+                                        <h4 class="tab-title">Реалізація проекту</h4>
+                                        <p class="tab-descr">
+                                            Останній крок - це реалізація проекту. Архітектурна компанія співпрацює з підрядними організаціями, контролює процес будівництва, надає консультації та здійснює нагляд за виконанням проекту. Команда архітекторів забезпечує відповідність виконання робіт
+                                            з проектними рішеннями, а також вирішує будь-які питання або зміни, які можуть виникнути під час будівництва. Наша компанія прагне зробити реалізацію вашого проекту незабутнім досвідом, де ваші мрії перетворюються
+                                            на реальність.
+                                        </p>
+                                        <div class="process-buttons">
+                                            <button class="btn-reset btn tab-extra-btn">Детальніше</button>
+                                            <button class="btn-reset btn tab-extra-btn">Договір</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-img">
+                                        <picture>
+                                            <source srcset="img/how-pic-320-4.png" media="(max-width: 320px)">
+                                            <source srcset="img/how-pic-768-4.png" media="(max-width: 768px)">
+                                            <source srcset="img/how-pic-1024-4.png" media="(max-width: 1024px)">
+                                            <img src="img/how-1920-4.png" alt="">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="faq" id="faq">
+                <div class="container">
+                    <h2 class="section-title faq__title">Найпоширеніші запитання</h2>
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <button id="accordion-btn-1" class="btn-reset accordion-btn" aria-expanded="false"><span class="accordion-title">Із чого формується кінцева вартість проекту?</span><span class="accordion-icon" aria-hidden="true"></span></button>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Кінцева вартість проекту архітектурної компанії формується з урахуванням кількох факторів. Перш за все, обсяг та складність проекту впливають на вартість. Чим більший проект, тим більше ресурсів, праці та часу потрібно
+                                    для його реалізації, що може підвищити вартість. Складні архітектурні елементи, незвичайні конструкції або висока рівень деталізації також можуть збільшити витрати на проект.
+                                </p>
+                                <p class="accordion-text">Крім того, вартість проекту визначається вимогами та пріоритетами клієнта. Якщо клієнт прагне високої якості та ексклюзивного дизайну, це може вплинути на вибір матеріалів, обладнання та технологій, що зазвичай мають вищу
+                                    ціну. Крім того, додаткові рішення щодо енергоефективності, безпеки або сталевих конструкцій можуть також збільшити загальну вартість проекту.
+                                </p>
+                                <p class="accordion-text">
+                                    Нарешті, вибір матеріалів та обладнання грає важливу роль у формуванні кінцевої вартості. Деякі матеріали є більш дорогими та ексклюзивними, тоді як інші можуть бути більш доступними. Вибір високоякісних матеріалів, їхніх властивостей та естетичних характеристик
+                                    може впливати на загальну вартість проекту.
+                                </p>
+
+                                <p class="accordion-text">
+                                    Отже, кінцева вартість проекту архітектурної компанії формується з урахуванням обсягу, складності проекту, вимог та пріоритетів клієнта, а також вибору матеріалів та обладнання. Уважний аналіз цих факторів допомагає визначити вартість проекту та забезпечити
+                                    реалізацію архітектурних задумів в межах бюджету клієнта.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button id="accordion-btn-2" class="btn-reset accordion-btn" aria-expanded="false"><span class="accordion-title">Я маю свій проект. Чи зможемо ми його доопрацювати /<br> реалізувати?</span><span class="accordion-icon" aria-hidden="true"></span></button>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Консультація з архітектурною компанією може бути відмінним кроком для вас у втіленні вашого проекту. Архітектурна компанія пропонує послуги проектування та реалізації різноманітних будівельних проектів.
+                                </p>
+                                <p class="accordion-text">Наші спеціалісти здатні надати вам професійну оцінку вашого проекту. Вони вивчать ваші потреби та вимоги, а також оцінять технічну та фінансову реалізованість. Завдяки своєму досвіду і знанням, вони зможуть запропонувати
+                                    доопрацювання проекту з урахуванням вашого бюджету та інших обмежень.
+                                </p>
+                                <p class="accordion-text">
+                                    Архітектурна компанія також має належний технічний апарат та ресурси для втілення проекту. Вони працюють з командою фахівців, які можуть забезпечити якісне та ефективне виконання всіх етапів проекту - від створення концепції до фінального будівництва.
+                                </p>
+
+                                <p class="accordion-text"> Отже, консультація з архітектурною компанією відкриває можливості для доопрацювання та реалізації вашого проекту. Вони допоможуть вам визначити можливості та обмеження, а також пропонуватимуть інноваційні та естетично збалансовані
+                                    рішення.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button id="accordion-btn-3" class="btn-reset accordion-btn" aria-expanded="false"><span class="accordion-title">Я обираю між різними компаніями. У чому ваша відмінність?</span><span class="accordion-icon" aria-hidden="true"></span></button>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Ми маємо багаторічний досвід у сфері архітектури та будівництва. Також працюємо з різними типами проектів - від житлових будівель до комерційних об'єктів. Наші фахівці мають глибокі знання та розуміння сучасних тенденцій
+                                    у галузі архітектури та дизайну. Ми постійно вдосконалюємо свої навички та слідкуємо за нововведеннями, щоб забезпечити нашим клієнтам інноваційні та високоякісні рішення.
+                                </p>
+                                <p class="accordion-text">Підхід до проектування та реалізації базується на індивідуальному підході до кожного клієнта. Ми слухаємо ваші потреби, бажання та вимоги, і працюємо разом з вами, щоб створити унікальний і відповідний проект. Наша команда
+                                    експертів пропонує творчі та функціональні рішення, які відображають ваші індивідуальність та відповідають сучасним тенденціям.
+                                </p>
+
+                                <p class="accordion-text">Ми покладаємо великий акцент на якість наших послуг та задоволення наших клієнтів. Ми використовуємо найкращі матеріали, співпрацюємо з надійними партнерами та контролюємо всі етапи проекту, щоб забезпечити високу якість
+                                    та точність виконання. Ми ставимо ваші потреби на перше місце і працюємо наполегливо, щоб забезпечити вам задоволення від результату.</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button id="accordion-btn-4" class="btn-reset accordion-btn" aria-expanded="false"><span class="accordion-title">Чи можу я делегувати вам роботу/узгодження з підрядником/організацією?</span><span class="accordion-icon" aria-hidden="true"></span></button>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Так, архітектурна компанія готова взяти на себе відповідальність за координацію та співпрацю з підрядниками та організаціями у рамках вашого проекту.
+                                </p>
+                                <p class="accordion-text">Ми розуміємо, що будівництво та реалізація проекту включають взаємодію з різними сторонами, такими як підрядники, партнери та постачальники. Наша компанія має досвід у співпраці з різними фахівцями та здатність до ефективної
+                                    координації всіх сторін проекту.
+                                </p>
+
+                                <p class="accordion-text">Наша мета полягає в тому, щоб забезпечити гладку та ефективну реалізацію вашого проекту, звільняючи вас від необхідності особисто вести переговори та узгодження з різними сторонами. Ви можете спокійно довірити нам організацію
+                                    та координацію робіт з підрядниками, і ми забезпечимо успішне виконання проекту з урахуванням ваших вимог та очікувань.</p>
+
+                                <p class="accordion-text">Довіряючи нам делегувати роботу та узгодження з підрядниками та організаціями, ви зможете зосередитись на інших аспектах вашого проекту і мати впевненість, що виконання будівельних робіт буде проводитись відповідно до вашого
+                                    проекту та встановлених стандартів. Ми гарантуємо ефективну та професійну співпрацю зі всіма заміжніми сторонами, забезпечуючи успішне завершення вашого проекту.</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button id="accordion-btn-5" class="btn-reset accordion-btn" aria-expanded="false"><span class="accordion-title">Чи можу я повернути гроші на якомусь із етапів робіт?</span><span class="accordion-icon" aria-hidden="true"></span></button>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Якщо у вас виникла необхідність повернути гроші на якомусь етапі робіт, ми готові розглянути цей варіант. Однак, потрібно врахувати, що повернення грошей може бути обумовлене певними факторами, такими як стадія виконання
+                                    робіт, витрати на матеріали, затрати на підрядників та інші фактори, пов'язані з процесом реалізації проекту.
+                                </p>
+                                <p class="accordion-text">Ми рекомендуємо вам виявити свої зміни та наміри якомога раніше, щоб ми могли провести ретельний аналіз ситуації і знайти оптимальний шлях вирішення. Наша команда буде працювати з вами, щоб знайти компромісне рішення, яке
+                                    буде враховувати ваші потреби та можливості.
+                                </p>
+
+                                <p class="accordion-text">Ми розуміємо, що кожна ситуація є унікальною, тому готові розглянути вашу конкретну ситуацію і знайти рішення, яке буде справедливим і взаємовигідним для обох сторін. Наша мета - забезпечити вашу задоволеність та побудувати
+                                    довгострокові взаємовигідні відносини з нашими клієнтами.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="contacts">
+            <div class="container">
+                <div class="footer__block">
+                    <div class="footer__menu">
+                        <img src="img/nav-logo.svg" alt="" class="footer__logo">
+                        <a href="" class="footer-link">Про нас</a>
+                        <a href="" class="footer-link">Проекти</a>
+                        <a href="" class="footer-link">Відгуки</a>
+                        <a href="" class="footer-link">Договір оферти</a>
+                        <a href="" class="footer-link">Договір дідряду</a>
+                        <a href="" class="footer-link">Конфіденційність</a>
+                        <a href="" class="footer-link">Партнерська угода</a>
+                    </div>
+                    <div class="footer__form">
+                        <h2 class="section-title form-title">Залишити заявку</h2>
+                        <form action="/cgi-bin/hello_get.cgi" method="get">
+                            <div class="form-container">
+
+                                <input class="form-input" type="text" name="name" placeholder="Прізвище, ім'я, по-батькові*" required>
+                                <input class="form-input" type="email" name="email" placeholder="Email*" required>
+                                <textarea class="form-textarea" name="message" cols="30" rows="10" placeholder="Повідомлення" required></textarea>
+                            </div>
+                            <div class="check">
+                                <button type="submit" class="btn-reset btn form-btn">Відправити дані</button>
+                                <label class="checkbox">
+                                    <input type="checkbox" value="processing-personal-data" name="personal-data" required><span class="checkbox-text">Згоден на обробку персональний даних</span>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="footer__info">
+                        <p class="footer-descr">Цей сайт призначений для надання інформації про нашу архітектурну компанію та послуги, які ми надаємо. Вся інформація на сайті є загальною та не є остаточною пропозицією або договором. Для отримання детальної інформації про наші
+                            послуги, прохання зв'язатися з нами за допомогою наведених контактних даних. Ми не несемо відповідальності за будь-які помилки чи неточності, а також за будь-які дії, які можуть бути здійснені на підставі цієї інформації.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
